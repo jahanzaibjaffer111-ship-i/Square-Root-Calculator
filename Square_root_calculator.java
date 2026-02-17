@@ -10,7 +10,7 @@ public class Square_root_calculator
         while(true)
         {
             System.out.println("Type Number");
-            Double no=read.nextDouble();
+            double no=read.nextDouble();
             read.nextLine();
             System.out.println();
             if(no>=0)
@@ -35,4 +35,5 @@ public class Square_root_calculator
             }
         }
     }
+
 }
